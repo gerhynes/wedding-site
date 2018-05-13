@@ -199,6 +199,37 @@ hr {
   margin-bottom: 25px;
 }
 
+/* Contact Form Styles  */
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
+}
+
+form ul li {
+  margin: 20px;
+}
+
+form .form-input {
+  flex: 1 1 auto;
+  margin-bottom: 10px;
+  padding: 10px;
+  min-width: 300px;
+}
+
+form .btn {
+  font-size: 1.2em;
+  background-color: #d59541;
+  padding: 5px 25px;
+  color: #fff;
+  min-width: 150px;
+  border: none;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
 /* Footer Styles */
 
 footer {
