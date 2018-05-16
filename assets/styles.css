@@ -91,7 +91,7 @@ header a {
 
 header .btn {
   background-color: #d59541;
-  padding: 5px 25px;
+  padding: 15px 35px;
 }
 
 /* Hero Styles */
@@ -205,19 +205,31 @@ form {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  text-align: center;
   align-items: center;
   font-size: 1.5em;
 }
 
-form ul li {
-  margin: 20px;
+form .form-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 800px;
+}
+
+form .form-item {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
 }
 
 form .form-input {
-  flex: 1 1 auto;
+  flex: 1 1 400px;
   margin-bottom: 10px;
+  margin-left: 5px;
   padding: 10px;
-  min-width: 300px;
+  min-width: 400px;
 }
 
 form .btn {

@@ -109,23 +109,23 @@
         <hr>
 
         <form action="https://formspree.io/gkhynes@gmail.com" method="POST">
-            <ul>
-                <li>
+            <div class="form-wrapper">
+                <div class="form-item">
                     <label for="name">Names of Guests:</label>
-                    <input type="text" name="name" placeholder="Names of Guests" class="form-input">
-                </li>
-                <li>
+                    <input type="text" name="name" placeholder="Names of Guests" class="form-input" required>
+                </div>
+                <div class="form-item">
                     <label for="mail">Your E-mail:</label>
-                    <input type="email" name="_replyto" placeholder="Your Email" class="form-input">
-                </li>
-                <li>
-                    <label for="details">Your Detials:</label>
+                    <input type="email" name="_replyto" placeholder="Your Email" class="form-input" required>
+                </div>
+                <div class="form-item">
+                    <label for="details">Your Details:</label>
                     <input type="text-area" name="details" placeholder="Your Details" class="form-input">
-                </li>
-                <li>
+                </div>
+                <div class="form-item">
                     <input class="btn" type="submit" value="Send">
-                </li>
-            </ul>
+                </div>
+            </div>
         </form>
 
     </section>
