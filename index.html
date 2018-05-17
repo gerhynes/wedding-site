@@ -25,7 +25,7 @@
                 <a href="#us-party">American Party</a>
             </li>
             <li>
-                <a href="#information">Information</a>
+                <a href="#information">More Information</a>
             </li>
             <li>
                 <a class="btn" href="#contact-form">RSVP</a>
@@ -117,19 +117,23 @@
         <form action="https://formspree.io/gkhynes@gmail.com" method="POST">
             <div class="form-wrapper">
                 <div class="form-item">
-                    <label for="name">Names of Guests:</label>
-                    <input type="text" name="name" placeholder="Names of Guests" class="form-input" required>
+                    <label for="name">Names of Guests</label>
+                    <input type="text" name="name" placeholder="Names of Guests" required>
                 </div>
                 <div class="form-item">
-                    <label for="mail">Your E-mail:</label>
-                    <input type="email" name="_replyto" placeholder="Your Email" class="form-input" required>
+                    <label for="number">Number of Guests</label>
+                    <input type="number" min="0" required>
                 </div>
                 <div class="form-item">
-                    <label for="details">Your Details:</label>
-                    <input type="text-area" name="details" placeholder="Your Details" class="form-input">
+                    <label for="mail">Your Email</label>
+                    <input type="email" name="_replyto" placeholder="Your Email" required>
                 </div>
                 <div class="form-item">
-                    <input class="btn" type="submit" value="RSVP">
+                    <label for="details">Your Details</label>
+                    <input type="text-area" name="details" placeholder="Your Details">
+                </div>
+                <div class="form-item">
+                    <input class="btn" type="submit" value="SEND RSVP">
                 </div>
             </div>
         </form>
