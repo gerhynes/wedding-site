@@ -146,6 +146,14 @@ header .btn {
 
 /* Couple Styles */
 
+.couple-bio {
+  line-height: 1.5;
+}
+
+.couple-bio p {
+  margin: 10px;
+}
+
 .grid {
   width: 100%;
   display: flex;
