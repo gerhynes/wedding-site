@@ -2,8 +2,6 @@
 
 @import url("https://fonts.googleapis.com/css?family=Merriweather:300");
 
-/* maroon #9e1c36 */
-
 * {
   margin: 0;
   padding: 0;
@@ -45,6 +43,19 @@ section {
 
 p {
   line-height: 1.5;
+}
+
+@media (max-width: 800px) {
+  section {
+    padding: 50px 20px 20px 20px;
+  }
+}
+
+@media (max-width: 530px) {
+  img {
+    max-width: 100%;
+    max-height: 300px;
+  }
 }
 
 /* Header Styles */
@@ -94,6 +105,35 @@ header .btn {
   padding: 15px 35px;
 }
 
+@media (max-width: 800px) {
+  header {
+    padding: 20px 50px;
+    flex-direction: column;
+  }
+
+  header h1 {
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 530px) {
+  header {
+    position: fixed;
+  }
+
+  header nav {
+    flex-direction: column;
+  }
+
+  header nav li {
+    margin: 15px;
+  }
+
+  header nav li:nth-last-child(1) {
+    margin-top: 30px;
+  }
+}
+
 /* Hero Styles */
 
 .hero {
@@ -130,6 +170,26 @@ header .btn {
   100% {
     opacity: 1;
     margin-top: 100px;
+  }
+}
+
+@media (max-width: 800px) {
+  .hero {
+    min-height: 700px;
+  }
+
+  .hero h2 {
+    font-size: 48px;
+  }
+
+  .hero h3 {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 530px) {
+  .hero-content {
+    display: none;
   }
 }
 
@@ -179,6 +239,12 @@ hr {
 .venue img {
   height: 450px;
   margin-bottom: 25px;
+}
+
+@media (max-width: 1100px) {
+  .Irish-party-info {
+    flex-direction: column;
+  }
 }
 
 /* American Party Styles */
