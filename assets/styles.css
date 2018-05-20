@@ -52,6 +52,15 @@ p {
   line-height: 1.5;
 }
 
+.btn {
+  background-color: #d59541;
+  padding: 15px 35px;
+}
+
+.btn:hover {
+  background-color: #af680a;
+}
+
 @media (max-width: 800px) {
   section {
     padding: 50px 10px 20px 10px;
@@ -115,11 +124,6 @@ header a {
   color: #fff;
 }
 
-header .btn {
-  background-color: #d59541;
-  padding: 15px 35px;
-}
-
 @media (max-width: 800px) {
   header {
     padding: 20px 50px;
@@ -132,6 +136,11 @@ header .btn {
 }
 
 @media (max-width: 530px) {
+  header {
+    min-height: 100vh;
+    justify-content: center;
+  }
+
   header h1 {
     font-size: 1.7em;
   }
@@ -209,6 +218,10 @@ header .btn {
   }
 
   .hero-content {
+    display: none;
+  }
+
+  .hero i {
     display: none;
   }
 }
