@@ -306,6 +306,10 @@ p {
   max-width: 70%;
 }
 
+.info h3 {
+  margin-top: 30px;
+}
+
 /* Contact Form Styles  */
 
 form {
