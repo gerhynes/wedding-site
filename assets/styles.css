@@ -334,7 +334,18 @@ form .form-item {
   min-width: 600px;
 }
 
-form input {
+form input,
+form select,
+form textarea {
+  flex-grow: 1;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  padding: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+}
+
+form select {
   flex-grow: 1;
   margin-bottom: 10px;
   margin-left: 5px;
