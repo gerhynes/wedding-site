@@ -229,22 +229,18 @@
                     <input type="email" name="_replyto" placeholder="Your Email" required>
                 </div>
                 <div class="form-item">
-                    <div class="attending">
-                        <label for="attending">Which Party?
-                            <label for="Irish-party">Irish </label>
-                            <input name="attending" id="Irish-party" type="radio" value="Irish-party">
-                            <label for="US-party">American</label>
-                            <input name="attending" id="US-party" type="radio" value="American-party">
-                            <label for="Both-parties">Both!</label>
-                            <input name="attending" id="Both-parties" type="radio" value="Both-parties">
-                            <label for="Neither-party">Neither</label>
-                            <input name="attending" id="Neither-party" type="radio" value="Neither-party">
-                        </label>
-                    </div>
+
+                    <label for="attending">Which Party?</label>
+                    <select name="attending" id="attending">
+                        <option value="Irish-party" selected>Irish Party</option>
+                        <option value="US-party" selected>American Party</option>
+                        <option value="Both-parties" selected>Both Parties</option>
+                        <option value="Neither-party" selected>Neither Party</option>
+                    </select>
                 </div>
                 <div class="form-item">
                     <label for="details">Any message for us?</label>
-                    <input type="text-area" name="message" placeholder="Your Message">
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Your Message"></textarea>
                 </div>
                 <div class="form-item">
                     <input class="btn" type="submit" value="SEND RSVP">
