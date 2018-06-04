@@ -345,15 +345,6 @@ form textarea {
   border-radius: 0.25rem;
 }
 
-form select {
-  flex-grow: 1;
-  margin-bottom: 10px;
-  margin-left: 5px;
-  padding: 10px;
-  border: 1px solid #ced4da;
-  border-radius: 0.25rem;
-}
-
 form .btn {
   font-size: 1.2em;
   background-color: #d59541;
