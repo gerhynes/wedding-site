@@ -15,17 +15,17 @@ html {
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 2em;
   margin-bottom: 30px;
 }
 
 h3 {
-  font-size: 1.5rem;
+  font-size: 1.5em;
   margin-bottom: 30px;
 }
 
 h4 {
-  font-size: 1.3rem;
+  font-size: 1.3em;
   margin-bottom: 30px;
 }
 
@@ -249,9 +249,14 @@ header a {
   justify-content: center;
 }
 
-.grid img {
-  height: 400px;
-  padding: 20px;
+.grid .img-wrapper {
+  width: 400px;
+  margin: 20px;
+}
+
+.grid .img-wrapper img {
+  width: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.18);
 }
 
 /* Irish Party Styles */
@@ -375,17 +380,16 @@ form .btn {
 /* Footer Styles */
 
 footer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   background-color: #9e1c36;
   color: #fff;
   padding: 20px 0;
+  text-align: center;
 }
 
 footer h3 {
   font-size: 1.2em;
   font-weight: 400;
+  margin-bottom: 0;
 }
 
 @media (max-width: 530px) {
