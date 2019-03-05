@@ -6,7 +6,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* border: 1px solid red; */
+  border: 1px solid red;
 }
 
 html {
@@ -262,21 +262,69 @@ header a {
 
 /* Irish Party Styles */
 
-.Irish-party-info {
+/* .venue {
+  display: flex;
+} */
+
+.Irish-party-info h3 {
+  text-align: center;
+}
+
+.church {
+  display: flex;
+}
+
+.church-info {
+  flex: 1;
+}
+
+.church-info img {
+  width: 100%;
+}
+
+.church-map-wrapper {
+  flex: 1;
+}
+
+.church-map {
+  width: 100%;
+}
+
+/* .Irish-party-info {
   display: flex;
   justify-content: center;
   text-align: center;
   margin-top: 0;
-}
+} */
 
-.Irish-party-info .venue {
+/* .Irish-party-info .venue {
   flex-basis: 50%;
   padding: 25px;
-}
+} */
 
-.venue img {
+/* .venue img {
   height: 450px;
   margin-bottom: 25px;
+} */
+
+.reception {
+  display: flex;
+}
+
+.reception-map-wrapper {
+  flex: 1;
+}
+
+.reception-map {
+  width: 100%;
+}
+
+.reception-info {
+  flex: 1;
+}
+
+.reception-info img {
+  width: 100%;
 }
 
 @media (max-width: 1100px) {
