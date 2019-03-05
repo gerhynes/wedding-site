@@ -6,7 +6,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 html {
@@ -52,7 +52,7 @@ section {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 80px 80px;
+  padding: 80px 0;
 }
 
 p {
@@ -262,10 +262,6 @@ header a {
 
 /* Irish Party Styles */
 
-/* .venue {
-  display: flex;
-} */
-
 .Irish-party-info h3 {
   text-align: center;
 }
@@ -280,6 +276,7 @@ header a {
 
 .church-info img {
   width: 100%;
+  height: 100%;
 }
 
 .church-map-wrapper {
@@ -288,24 +285,8 @@ header a {
 
 .church-map {
   width: 100%;
+  height: 100%;
 }
-
-/* .Irish-party-info {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  margin-top: 0;
-} */
-
-/* .Irish-party-info .venue {
-  flex-basis: 50%;
-  padding: 25px;
-} */
-
-/* .venue img {
-  height: 450px;
-  margin-bottom: 25px;
-} */
 
 .reception {
   display: flex;
@@ -317,6 +298,7 @@ header a {
 
 .reception-map {
   width: 100%;
+  height: 100%;
 }
 
 .reception-info {
@@ -325,6 +307,7 @@ header a {
 
 .reception-info img {
   width: 100%;
+  height: 100%;
 }
 
 @media (max-width: 1100px) {
@@ -335,17 +318,26 @@ header a {
 
 /* American Party Styles */
 
-.us-party-info {
+.us-reception {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-  margin-top: 0;
 }
 
-.us-party-info img {
-  height: 450px;
-  margin-bottom: 25px;
+.us-reception-info {
+  flex: 1;
+}
+
+.us-reception-info img {
+  width: 100%;
+  height: 100%;
+}
+
+.us-reception-map-wrapper {
+  flex: 1;
+}
+
+.us-reception-map {
+  width: 100%;
+  height: 100%;
 }
 
 /* Information Styles */
