@@ -12,7 +12,7 @@
 html {
   font-family: "Lato", sans-serif;
   font-size: 18px;
-  color: #555;
+  color: #292929;
 }
 
 h2 {
@@ -45,7 +45,6 @@ nav {
 a {
   text-decoration: none;
   font: 4em;
-  color: #9e1c36;
 }
 
 section {
@@ -236,6 +235,10 @@ header a {
 
 /* Couple Styles */
 
+.couple h2 {
+  color: #9e1c36;
+}
+
 .couple-bio p {
   max-width: 800px;
   margin: 10px;
@@ -262,13 +265,18 @@ header a {
 
 /* Irish Party Styles */
 
+.Irish-party h2,
+.Irish-party h3 {
+  color: #9e1c36;
+}
+
 .Irish-party-info h3 {
   text-align: center;
 }
 
 .church {
   display: flex;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 }
 
 .church-info {
@@ -351,6 +359,10 @@ header a {
 
 /* American Party Styles */
 
+.us-party h2 {
+  color: #9e1c36;
+}
+
 .us-reception {
   display: flex;
 }
@@ -390,6 +402,11 @@ header a {
 }
 
 /* Information Styles */
+
+.information h2,
+.information h3 {
+  color: #9e1c36;
+}
 
 a {
   margin: 0.5em 0;
