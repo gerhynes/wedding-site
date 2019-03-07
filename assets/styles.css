@@ -15,6 +15,12 @@ html {
   color: #292929;
 }
 
+h2,
+h3,
+h4 {
+  text-align: center;
+}
+
 h2 {
   font-size: 2em;
   margin-bottom: 30px;
@@ -34,7 +40,7 @@ hr {
   width: 600px;
   height: 3px;
   background-color: #9e1c36;
-  margin-bottom: 50px;
+  margin: 0 auto 30px auto;
 }
 
 ul,
@@ -48,9 +54,6 @@ a {
 }
 
 section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   padding: 80px 0;
 }
 
@@ -93,6 +96,8 @@ p {
 
 header {
   position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -103,7 +108,7 @@ header {
   background-color: #9e1c36;
   color: #fff;
   z-index: 1;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.18);
 }
 
 @keyframes fadein {
@@ -188,7 +193,7 @@ header a {
   animation: 1s slidefade 1.5s forwards;
   background-color: #9e1c36;
   padding: 25px;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.18);
 }
 
 .fa-arrow-circle-down {
@@ -241,7 +246,7 @@ header a {
 
 .couple-bio p {
   max-width: 800px;
-  margin: 10px;
+  margin: 0 auto;
   font-size: 21px;
   line-height: 1.75;
 }
@@ -426,15 +431,6 @@ p {
   padding: 1rem;
 }
 
-.accommodation > * {
-  margin: 1rem;
-}
-
-.accommodation i {
-  color: #9e1c36;
-  margin-right: 1rem;
-}
-
 .accommodation-list {
   padding: 1rem;
 }
@@ -459,7 +455,7 @@ p {
 
 .pinterest-board {
   width: 90%;
-  max-width: 1100px;
+  max-width: 800px;
 }
 
 .transportation {
@@ -478,6 +474,8 @@ p {
   padding: 2.5rem;
   border: 1px solid #adb5bd;
   border-radius: 5px;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .contact-form h2 {
@@ -489,9 +487,6 @@ p {
 }
 
 form {
-  justify-content: center;
-  text-align: center;
-  align-items: center;
   font-size: 1.5em;
 }
 
@@ -516,7 +511,7 @@ form select,
 form textarea {
   flex-grow: 1;
   margin-bottom: 10px;
-  margin-left: 5px;
+  margin-left: 10px;
   padding: 10px;
   border: 1px solid #ced4da;
   border-radius: 0.25rem;
@@ -524,6 +519,7 @@ form textarea {
 
 form .btn-wrapper {
   width: 100%;
+  text-align: center;
 }
 
 form .btn {
@@ -531,7 +527,6 @@ form .btn {
   background-color: #d59541;
   padding: 15px 35px;
   color: #fff;
-  min-width: 150px;
   border: none;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.18);
 }
