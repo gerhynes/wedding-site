@@ -1,6 +1,6 @@
 /* General Styles */
 
-@import url("https://fonts.googleapis.com/css?family=Lato|Merriweather");
+@import url("https://fonts.googleapis.com/css?family=Lato|Playfair+Display");
 
 * {
   margin: 0;
@@ -54,7 +54,7 @@ a {
 }
 
 section {
-  padding: 80px 0;
+  padding: 80px 0 0 0;
 }
 
 p {
@@ -62,13 +62,14 @@ p {
 }
 
 .btn {
-  background-color: #d59541;
-  padding: 15px 35px;
+  border: 2px solid #fff;
+  border-radius: 40px;
+  padding: 5px 35px;
   transition: all 0.3s ease-out;
 }
 
 .btn:hover {
-  background-color: #af680a;
+  border-color: #af680a;
 }
 
 @media (max-width: 800px) {
@@ -105,10 +106,8 @@ header {
   padding: 12px 100px;
   animation: 1s fadein 0.5s forwards;
   opacity: 0;
-  background-color: #9e1c36;
   color: #fff;
   z-index: 1;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.18);
 }
 
 @keyframes fadein {
@@ -118,7 +117,7 @@ header {
 }
 
 header h1 {
-  font-family: "Merriweather";
+  font-family: "Playfair Display", sans-serif;
   margin: 15px 0;
 }
 
@@ -174,53 +173,42 @@ header a {
 /* Hero Styles */
 
 .hero {
-  position: relative;
-  justify-content: center;
-  text-align: center;
+  width: 100%;
   min-height: 100vh;
   color: #fff;
-  font: 46px "Merriweather";
+  font-family: "Playfair Display", sans-serif;
+  font-size: 46px;
+  background: url(https://res.cloudinary.com/gerhynes/image/upload/q_auto/v1551996814/joanna_2_b_akkan0.png);
+  background-size: cover;
+  background-position: center;
 }
 
-.hero h2 {
-  margin-bottom: 15px;
-  font-weight: 300;
+.hero::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.25);
+}
+
+.hero h2,
+.hero h3 {
+  margin-bottom: 1rem;
+  font-weight: 100;
 }
 
 .hero-content {
   opacity: 0;
-  margin-top: 150px;
-  animation: 1s slidefade 1.5s forwards;
-  background-color: #9e1c36;
-  padding: 25px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.18);
-}
-
-.fa-arrow-circle-down {
-  opacity: 0;
-  margin-top: 100px;
-  color: #9e1c36;
+  margin-top: 60vh;
   animation: 1s slidefade 1.5s forwards;
 }
 
 @keyframes slidefade {
   100% {
     opacity: 1;
-    margin-top: 100px;
-  }
-}
-
-@media (max-width: 800px) {
-  .hero {
-    min-height: 700px;
-  }
-
-  .hero h2 {
-    font-size: 48px;
-  }
-
-  .hero h3 {
-    font-size: 24px;
+    margin-top: 50vh;
   }
 }
 
@@ -239,6 +227,10 @@ header a {
 }
 
 /* Couple Styles */
+
+.photographer-credit {
+  text-align: center;
+}
 
 .couple h2 {
   color: #9e1c36;
