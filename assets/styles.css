@@ -443,6 +443,16 @@ p {
   margin: 1rem;
 }
 
+.accommodation-list a::before {
+  content: "";
+  display: inline-block;
+  background: #9e1c36;
+  width: 0.75rem;
+  height: 0.75rem;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+}
+
 .registry {
   flex: 1;
 }
@@ -523,7 +533,7 @@ form .btn {
   color: #fff;
   min-width: 150px;
   border: none;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.18);
 }
 
 @media (max-width: 530px) {
