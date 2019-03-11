@@ -53,10 +53,6 @@ a {
   font: 4em;
 }
 
-section {
-  padding: 80px 0 0 0;
-}
-
 p {
   line-height: 1.5;
 }
@@ -69,6 +65,7 @@ p {
 }
 
 .btn:hover {
+  color: #af680a;
   border-color: #af680a;
 }
 
@@ -201,15 +198,17 @@ header a {
 
 .photographer-credit {
   text-align: center;
+  margin-bottom: 3rem;
+  padding: 1rem;
 }
 
 .couple h2 {
   color: #9e1c36;
 }
 
-.couple-bio p {
+.couple-bio {
   max-width: 800px;
-  margin: 0 auto;
+  margin: 0 auto 3rem auto;
   font-size: 21px;
   line-height: 1.75;
 }
@@ -219,6 +218,7 @@ header a {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin-bottom: 1rem;
 }
 
 .grid .img-wrapper {
@@ -233,6 +233,10 @@ header a {
 
 /* Irish Party Styles */
 
+.Irish-party {
+  margin-bottom: 4rem;
+}
+
 .Irish-party h2,
 .Irish-party h3 {
   color: #9e1c36;
@@ -244,7 +248,7 @@ header a {
 
 .church {
   display: flex;
-  margin-bottom: 3rem;
+  margin-bottom: 4rem;
 }
 
 .church-info {
@@ -327,6 +331,10 @@ header a {
 
 /* American Party Styles */
 
+.us-party {
+  margin-bottom: 4rem;
+}
+
 .us-party h2 {
   color: #9e1c36;
 }
@@ -370,6 +378,10 @@ header a {
 }
 
 /* Information Styles */
+
+.information {
+  margin-bottom: 3rem;
+}
 
 .information h2,
 .information h3 {
@@ -431,7 +443,24 @@ p {
   text-align: center;
 }
 
+.directions-list {
+  display: flex;
+}
+
+.directions {
+  flex: 1;
+  border: 1px solid #adb5bd;
+  background: #f4f4f4;
+  border-radius: 5px;
+  padding: 1rem;
+  margin: 0.5rem;
+}
+
 /* Contact Form Styles  */
+
+.contact {
+  margin-bottom: 3rem;
+}
 
 .contact-form {
   padding: 2.5rem;
